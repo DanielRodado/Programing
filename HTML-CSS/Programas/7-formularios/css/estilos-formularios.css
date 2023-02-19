@@ -1,0 +1,66 @@
+.input{
+    width: 100vw;
+    padding: 5px 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.input[type="password"]{
+    color: red;
+}
+
+.input-moderno{
+    border: none;
+    border-bottom: 1px solid #c2c2c2;
+    outline: none;
+    padding: 5px;
+    color: #5f5f5f;
+}
+
+.input-moderno::placeholder{
+    color: #c2c2c2;
+}
+
+.input-moderno:focus{ /* focus: Cuando pesionas el input */
+    border-bottom: 1px solid #686868;
+    color: #000000;
+}
+
+.input-background{
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px 10px;
+    color: white;
+    box-shadow: violet;
+}
+
+.input-background::placeholder{
+    color: #8d8d8d;
+}
+
+.input-search{
+    padding: 10px;
+    padding-left: 30px;
+    border: none;
+    background-color: #eee;
+    outline: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    background-image: url("../img/searhicon.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 6px;
+}
+
+.textarea{
+    resize: none; /* Para que no se pueda modificar el tamaño de la barra de comentarios */
+    overflow-y: scroll;
+}
+
+select{
+    width: 100%;
+    padding: 5px;
+}
