@@ -1,0 +1,44 @@
+#padre {
+    width: 400px;
+    height: 400px;
+    background-color: #454045;
+}
+
+#hijo {
+    width: 50%;
+    height: 50%;
+    background-color: #212121;
+    /* transition: transform 1s ease-in 2s; Propiedad a la que se le quiere aplicar; duración; tipo de transición, delay */
+    animation: translacion 4s forwards infinite ease-in-out;
+}
+
+#padre:hover #hijo {
+    /* transform: translateX(100%);
+    background-color: gray; */
+    animation-play-state: paused; /* Atributo para controlar al flujo de la animación */
+}
+
+@keyframes translacion {
+    0% {
+        background-color: #212121;
+        transform: translateX(0%);
+    }
+
+    25% {
+        transform: translateX(100%);
+    }
+
+    50% {
+        transform: translateX(100%) translateY(100%);
+        background-color: orange;
+    }
+
+    75% {
+        transform: translateX(0%) translateY(100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+        background-color: #212121;
+    }
+}
