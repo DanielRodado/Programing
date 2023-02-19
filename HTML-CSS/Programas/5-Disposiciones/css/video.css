@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Para rellenar el espacio en blanco */
+    position: fixed;
+}
+
+.header {
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#boton {
+    position: fixed;
+    padding: 8px;
+    border-radius: 10px;
+    border-color: blue;
+    background-color: blueviolet;
+    color: white;
+    opacity: 0.5;
+}
+
+#boton:hover{
+    opacity: 1;
+}

@@ -1,0 +1,43 @@
+h1{
+    color: blue;
+}
+
+/*Estoy probando colores y tamaños*/
+p{
+    color: red;
+    font-size: 20px;
+}
+
+/*Selectores: class - id*/
+/*Solo los que sean <p\> van a tener estos estilos, ya que así se le puso*/
+/*Definción para id=""*/
+#noticia-1{
+    color: magenta;
+    font-size: 20px;
+}
+
+#noticia-2{
+    font-size: 20px;
+}
+
+/*Definción para class=""*/
+.encabezado{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.botones{
+    text-transform: uppercase;
+    color: blueviolet;
+}
+
+/*Para hacer referencia a todos los elementos*/
+*.warning{
+    color: blue;
+}
+
+/*Para hacer varios a la vez*/
+.fecha, .autor, .ubicacion{
+    font-size: 10px;
+    color: orange;
+}

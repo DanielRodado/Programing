@@ -1,0 +1,47 @@
+/*Estilos para colores*/
+.colores{
+    color: brown;
+}
+
+.color-hexadecimal{
+    color: #519872;
+}
+
+.color-rbg{
+    color: rgb(110, 0, 200);
+}
+
+.color-rgba{
+    color: rgba(202, 59, 59, 0.664);
+}
+
+/*Fondos*/
+
+.fondo{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/007/188/453/original/abstract-blur-background-with-pastel-color-free-vector.jpg");
+    background-position: center center;
+    /*background-color: brown;*/
+}
+
+/*Tamaños*/
+.ancho{
+    background-color: thistle; 
+    width: 100px;
+}
+
+.alto{
+    background-color: #519872;
+    height: 200px;
+}
+
+/*Targeta*/
+
+.targeta{
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 2px;
+    /*border-top: none;*/
+    padding: 10px; /*relleno de adentro*/
+    /*padding: 10px 20px 30px 40px*/
+    margin: 20px; /*relleno de afuera*/
+}
